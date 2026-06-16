@@ -1,0 +1,51 @@
+slides:
+  - number: 1
+    expected_title: ""
+    expected_subtitle: ""
+    prompt_sent: false
+    generated: false
+    visual_qa: PENDING
+    corrections: []
+    downloaded_file: null
+    dimensions: null
+    approved_at: null
+  - number: 2
+    expected_title: ""
+    expected_subtitle: ""
+    prompt_sent: false
+    generated: false
+    visual_qa: PENDING
+    corrections: []
+    downloaded_file: null
+    dimensions: null
+    approved_at: null
+  - number: 3
+    expected_title: ""
+    expected_subtitle: ""
+    prompt_sent: false
+    generated: false
+    visual_qa: PENDING
+    corrections: []
+    downloaded_file: null
+    dimensions: null
+    approved_at: null
+  - number: 4
+    expected_title: ""
+    expected_subtitle: ""
+    prompt_sent: false
+    generated: false
+    visual_qa: PENDING
+    corrections: []
+    downloaded_file: null
+    dimensions: null
+    approved_at: null
+  - number: 5
+    expected_title: ""
+    expected_subtitle: ""
+    prompt_sent: false
+    generated: false
+    visual_qa: PENDING
+    corrections: []
+    downloaded_file: null
+    dimensions: null
+    approved_at: null

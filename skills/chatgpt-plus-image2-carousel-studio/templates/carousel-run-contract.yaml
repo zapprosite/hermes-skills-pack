@@ -1,0 +1,39 @@
+pipeline: chatgpt-plus-image2-carousel-studio
+brand_slug: refrimix
+campaign_slug: CHANGE_ME
+slide_count: 5
+format:
+  canonical: instagram_portrait_4_5
+  width: 1080
+  height: 1350
+  chatgpt_option: Retrato 4:5
+  safe_margin_px: 90-120
+  profile_grid_preview_safe: true
+provider_lock:
+  image_generation: chatgpt_plus_web_image2_only
+  browser: camofox_vnc
+  paid_api_allowed: false
+  pil_render_allowed: false
+  local_renderer_allowed: false
+  openrouter_allowed: false
+  model_change_allowed: false
+paths:
+  workbench_dir: /tmp/hermes-carousel-runs/CHANGE_ME
+  final_dir: /home/will/Imagens/carroceis/CHANGE_ME
+inputs_required:
+  - carousel.yaml
+  - copy.md
+  - caption.txt
+  - visual-direction.md
+  - prompts.yaml
+  - render-spec.yaml
+gates:
+  preflight: required
+  provider_lock: required
+  copy_complete: required
+  visual_direction_complete: required
+  aspect_ratio_selected: required
+  per_slide_visual_qa: required
+  real_download: required
+  local_file_validation: required
+  final_clean_export: required
